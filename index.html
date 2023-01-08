@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FontAwesome CDN -->
+    <script src="https://kit.fontawesome.com/363f3fc718.js" crossorigin="anonymous"></script>
+    <!-- Style Link -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Font Google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anybody:wght@500&display=swap" rel="stylesheet">
+    <title>Lista de Tareas</title>
+</head>
+<body>
+    <main class="container">
+
+        <section class="perfil">
+            <p id="fechaHoy"></p>
+            <h1>Hola, Diego Hanssel Perez</h1>
+            <span>Vamos a cumplir tus metas</span>
+        </section>
+
+        <section class="agregar-tareas">
+            <input  type="text" id="input" placeholder="Agregar nueva tarea...">
+            <i id="boton_enter" class="fa-sharp fa-solid fa-circle-plus fa-2xl"></i>
+        </section>
+
+        <section class="seccion-tareas">
+            <h3>Tu tareas pendientes:</h3>
+            <ul class="lista">
+                <!-- <li>
+                    <i class="fa-regular fa-circle fa-xl" data="realizado" id="0"></i>
+                    <p class="text">hacer la tarea de español</p>
+                    <i class="fa-solid fa-trash fa-xl" data="eliminado" id="0"></i>
+                </li> -->
+            </ul>
+        </section>
+        <div class="contain-input_vacio">
+            <!-- <div class="input_vacio">
+            <i id="exit_item" class="fa-solid fa-xmark"></i>
+            <i class="fa-solid fa-circle-xmark"></i>
+            <h2>No hay nada que agregar a Tareas Pendientes</h2>
+            </div> -->
+        </div> 
+        <!-- <span class="colorCheck">
+            <i class="fa-regular fa-circle-check fa-xl"></i>
+        </span> -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
